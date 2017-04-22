@@ -1,0 +1,55 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: auto;
+  max-width: 960px;
+  -background-color: #ff6d00;
+}
+
+nav{
+  overflow: hidden;
+  background-color: green;
+}
+
+.logo{
+  float: left;
+}
+
+.usuario{
+  float: right;
+}
+
+.contenedor{
+  border: 1px black solid;
+  overflow: auto;
+}
+
+.contenedor_rubros{
+  width: 75%;
+  overflow: hidden;
+}
+
+.rubro{
+  border: 1px black solid;
+  background-color: #ff6d00;
+  float: left;
+  width: 32%;
+  height: 100px;
+}
+
+.contenedor_lateral{
+  width: 25%;
+  border: 1px black solid;
+}
+
+
+
+
+button{
+  background-color: #ff6d00;
+  color: white;
+  border-radius: 15%;
+  font-size: 1em;
+}
